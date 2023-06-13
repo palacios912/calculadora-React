@@ -1,5 +1,5 @@
 .boton-contenedor{
-    height: 80px;
+    height: 70px;
     display: flex;
     flex: 1 1;
     justify-content: center;
@@ -14,6 +14,12 @@
     cursor: pointer;
     user-select: none;
 }
-.boton-operador{
-
+.operador{
+    background-color: #00471b;
+}
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+.operador:hover{
+    background-color: #ff6600;
 }
