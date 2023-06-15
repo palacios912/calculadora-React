@@ -13,7 +13,10 @@ function App() {
     setInput(input + valor);
   };
   const calcularResultado = () =>{
-    setInput(evaluate(input))
+    if(input){
+      setInput(evaluate(input));
+    }
+    
   }
   return (
     <div className="App">
